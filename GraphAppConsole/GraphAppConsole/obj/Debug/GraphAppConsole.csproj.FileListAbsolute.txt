@@ -1,0 +1,7 @@
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\obj\Debug\GraphAppConsole.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\bin\Debug\GraphAppConsole.exe.config
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\bin\Debug\GraphAppConsole.exe
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\bin\Debug\GraphAppConsole.pdb
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\obj\Debug\GraphAppConsole.exe
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\obj\Debug\GraphAppConsole.pdb
+C:\Users\Admin\source\repos\GraphAppConsole\GraphAppConsole\obj\Debug\GraphAppConsole.csprojAssemblyReference.cache
