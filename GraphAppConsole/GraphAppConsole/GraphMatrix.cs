@@ -48,18 +48,6 @@ namespace GraphAppConsole
             return false;
         }
 
-        public override bool IsIsolated(int index)
-        {
-            for(int i = 0; i < N; i++)
-            {
-                if(matrix[i,index] == 1 || matrix[index, i] == 1)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-
         public override int OutDegree(int index)
         {
             int count = 0;
