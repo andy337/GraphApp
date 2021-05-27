@@ -50,24 +50,6 @@ namespace GraphAppConsole
             return false;
         }   
 
-        public override bool IsIsolated(int v)
-        {
-            for (int i = 0; i < graphList.Count; i++)
-            {
-                if (graphList.ContainsKey(i))
-                {
-                    for (int j = 0; j < graphList[i].Count; j++)
-                    {
-                        if (graphList[i][j] == v)
-                        {
-                            return true;
-                        }
-                    }
-                }
-            }
-            return false;
-        }
-
         public override int OutDegree(int key)
         {
             return graphList[key].Count;
