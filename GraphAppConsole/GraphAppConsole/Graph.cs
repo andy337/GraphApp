@@ -18,8 +18,15 @@ namespace GraphAppConsole
         public abstract void RemoveEdge(int f_element, int l_element); // Видалити дугу
 
         public abstract bool CheckEdge(int f_element, int l_element); // Перевірка існування дуги
-
-        public abstract bool IsIsolated(int v); // Ізольвона вершина
+        
+        public bool IsIsolated(int v) // Ізольвона вершина
+        {
+            if(InDegree(v) == 0 && OutDegree(v) == 0)
+            {
+                return true;
+            }
+            return false;
+        } 
 
         public abstract int OutDegree(int v); // Напівстепінь дуги(виходу)
 
