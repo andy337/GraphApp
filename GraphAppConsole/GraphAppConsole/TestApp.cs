@@ -37,9 +37,8 @@ namespace GraphAppConsole
                 "4. Перевiрка iснування дуги \n" +
                 "5. Напiвстепiнь входу вершини \n" +
                 "6. Напiвстепiнь виходу вершини \n" +
-                "7. Переглянути граф \n" +
-                "8. Представити граф у вигляді списку \n" +
-                "9. Представити граф у вигляді матриці \n");
+                "7. Представити граф у вигляді списку \n" +
+                "8. Представити граф у вигляді матриці \n");
 
             int f_element, l_element;
             int command = int.Parse(Console.ReadLine());
@@ -93,17 +92,15 @@ namespace GraphAppConsole
                     break;
 
                 case 7:
+                    if(graph is GraphMatrix)
+                    graph = graph.Converter();
                     graph.Print();
                     break;
 
                 case 8:
-                    if(graph is GraphMatrix)
-                    graph = graph.Converter();
-                    break;
-
-                case 9:
                     if(graph is GraphList)
                     graph = graph.Converter();
+                    graph.Print();
                     break;
             }
         }
